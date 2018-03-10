@@ -1,0 +1,36 @@
+# µ±¿´µ½ÓÐÈçÏÂ±¨´íÊ±
+# Çë×¢ÒâÈçÏÂÁ½ÐÐ
+#       [31m>>> import nltk
+#   >>> nltk.download('averaged_perceptron_tagger')
+È»ºóÐÂ½¨Ò»¸öÎÄ¼þ£¬²Î¿¼ averaged_perceptron_tagger.py
+  
+  
+Traceback (most recent call last):
+  File "D:\eclipse-workspace\nltk\text_handle\cixing.py", line 9, in <module>
+    print(nltk.pos_tag(word_tokenize(text)))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python35\lib\site-packages\nltk\tag\__init__.py", line 133, in pos_tag
+    tagger = _get_tagger(lang)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python35\lib\site-packages\nltk\tag\__init__.py", line 97, in _get_tagger
+    tagger = PerceptronTagger()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python35\lib\site-packages\nltk\tag\perceptron.py", line 140, in __init__
+    AP_MODEL_LOC = 'file:'+str(find('taggers/averaged_perceptron_tagger/'+PICKLE))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python35\lib\site-packages\nltk\data.py", line 673, in find
+    raise LookupError(resource_not_found)
+LookupError: 
+**********************************************************************
+  Resource [93maveraged_perceptron_tagger[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('averaged_perceptron_tagger')
+  [0m
+  Searched in:
+    - 'C:\\Users\\Administrator/nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python35\\lib\\nltk_data'
+    - 'C:\\Users\\Administrator\\AppData\\Roaming\\nltk_data'
+**********************************************************************
+

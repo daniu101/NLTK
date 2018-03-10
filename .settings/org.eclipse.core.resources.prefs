@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+encoding//basic/basic.py=utf-8
+encoding//install/NLTK.py=utf-8
+encoding//install/averaged_perceptron_tagger.py=utf-8
+encoding//install/download.py=utf-8
+encoding//install/jieba.py=utf-8
+encoding//text_handle/biaodian.py=utf-8
+encoding//text_handle/cixing.py=utf-8
+encoding//text_handle/daxiexiaoxie.py=utf-8
+encoding//text_handle/paragraph.py=utf-8
+encoding//text_handle/sentence.py=utf-8
