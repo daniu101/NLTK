@@ -9,5 +9,5 @@ print(text)
 text_list = nltk.word_tokenize(text)  
 #去掉标点符号  
 english_punctuations = [',', '.', ':', ';', '?', '(', ')', '[', ']', '&', '!', '*', '@', '#', '$', '%']  
-text_list = [word for word in text_list if word not in english_punctuations]  
-print(text_list)
+text_list2 = [word for word in text_list if word not in english_punctuations]  
+print(text_list2)
